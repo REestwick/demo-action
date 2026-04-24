@@ -13,12 +13,12 @@ jobs:
         uses: cybeats/sbom-studio-action@v1
         with:
           url: ${{secrets.APIURL}}
-          filePath: test.cdx.json
+          filePath: sbom/test.cdx.json
           secretAccessKey: ${{ secrets.SECRETKEY }}
           accessKey: ${{ secrets.ACCESSKEY }}
           subType: application
           sbomQuality: 50
           pkgType: maven
-          sbomComponentName: sbom/test-demo-sbom
+          sbomComponentName: test-demo-sbom
           namespace: com.example.demo
-          sbomComponentVersion: 1.0.0
+          sbomComponentVersion: 1.0.2
