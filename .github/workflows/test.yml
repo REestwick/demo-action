@@ -1,0 +1,24 @@
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      sbomComponentVersion: 1.0.0
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      - name: Cybeats SBOM Studio Action
+        uses: cybeats/sbom-studio-action@v1
+        with:
+          url: ${{secrets.APIURL}}
+          filePath: test.cdx.json
+          secretAccessKey: ${{ secrets.SECRETKEY }}
+          accessKey: ${{ secrets.ACCESSKEY }}
+          subType: application
+          sbomQuality: 50
+          pkgType: maven
+          sbomComponentName: test-demo-sbom
+          namespace: com.example.demo
+          sbomComponentVersion: 1.0.0

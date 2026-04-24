@@ -1,0 +1,1396 @@
+{
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:920b1a62-a515-4e89-82c2-8a7db7c8d6ce",
+    "version": 1,
+    "metadata":
+    {
+        "timestamp": "2024-07-04T23:27:07Z",
+        "tools":
+        [
+            {
+                "vendor": "Demo Technologies",
+                "name": "Demo SBOM Studio",
+                "version": "2.0.1"
+            }
+        ],
+        "authors":
+        [
+            {
+                "name": "Test Author",
+                "email": "test@email.com"
+            }
+        ],
+        "manufacture":
+        {
+            "name": "Demo Technologies Inc.",
+            "contact":
+            [
+                {
+                    "name": "Test Author",
+                    "email": "test@email.com"
+                },
+                {
+                    "name": "Test Author 2",
+                    "email": "test2@email.com"
+                }
+            ]
+        },
+        "supplier":
+        {
+            "name": "Demo Technologies Inc.",
+            "contact":
+            [
+                {
+                    "name": "Test Author",
+                    "email": "test@email.com"
+                },
+                {
+                    "name": "Test Author 2",
+                    "email": "test2@email.com"
+                }
+            ]
+        },
+        "component":
+        {
+            "bom-ref": "de57d1cf-4cfe-551b-9ef6-d691de0bbb5e",
+            "type": "application",
+            "group": "com.acme",
+            "name": "acme-tools",
+            "version": "2.4.25",
+            "purl": "pkg:maven/com.acme/acme-tools@2.4.25?type=jar",
+            "author": "Demo Technologies Inc.",
+            "publisher": "Demo Technologies Inc.",
+            "supplier":
+            {
+                "name": "Demo Technologies Inc.",
+                "contact":
+                [
+                    {
+                        "name": "Test Author",
+                        "email": "test@email.com"
+                    },
+                    {
+                        "name": "Test Author 2",
+                        "email": "test2@email.com"
+                    }
+                ]
+            }
+        }
+    },
+    "components":
+    [
+        {
+            "bom-ref": "f4087293-42a3-593c-99c0-f1c4082bd98d",
+            "type": "library",
+            "group": "org.springframework",
+            "name": "spring-core3",
+            "description": "Spring Core",
+            "version": "6.0.0",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "28d09d862d51222baa83f0675f30d259"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "b374a930c61b606e2e73503cc107501e1e967a2b"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "42d70d78b8822601a3b61c88dadf4be6a0021dde169a772c3fd4a6b8b2b61c90"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "748285717a999d090bf44b91a84fd42214128795c0044ccc8a57a2eabe6b2dc44823610e273c2f21384c5f951b5ffb7c"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "fa8a9366632ffd987f8995387682d82b86eb1efdfab97d60ba220d749e5f90838adda27e833eb19a07b7d07ace13b6fc693541e81ad35c8fc455e96c94b19030"
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-core3@6.0.0?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/spring-projects/spring-framework/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://github.com/spring-projects/spring-framework"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/spring-projects/spring-framework"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/spring-projects/spring-framework/security/policy"
+                }
+            ],
+            "author": "Spring",
+            "publisher": "Spring",
+            "supplier":
+            {
+                "name": "Spring",
+                "url":
+                [
+                    "https://spring.io/projects"
+                ]
+            },
+            "properties":
+            [
+                {
+                    "name": "endOfLife",
+                    "value": "2024-08-31T00:00:00Z"
+                },
+                {
+                    "name": "endOfSupport",
+                    "value": "2025-12-31T00:00:00Z"
+                }
+            ]
+        },
+        {
+            "bom-ref": "912fadeb-b27c-51e7-963e-68da239d72bd",
+            "type": "library",
+            "group": "org.apache.commons",
+            "name": "commons-lang3",
+            "description": "Apache Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.",
+            "version": "3.11",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "c592f49f703f9b3ab25556559b1ff379"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "68e9a6adf7cf8eb7e9d31bbc554c7c75eeaac568"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "80e7831b2b08150b5d05d53b29f1904b298e9194fd02c61989755da04fa2f20e44f6a0f29d13bfde33ce1dbefc7afc52"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "c1f6b5cb9ac47cfb612423a71b347568f3697cf88018b5808678be5234c50b22888db23cb833b7d8d458d39707ab9e4d839107d1d3306de2e4e422010c95180f"
+                }
+            ],
+            "purl": "pkg:maven/org.apache.commons/commons-lang3@3.11?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "https://issues.apache.org/jira/browse/LANG"
+                },
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-lang/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/commons-lang"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/commons-lang/security/policy"
+                },
+                {
+                    "type": "build-system",
+                    "url": "https://builds.apache.org/"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+                },
+                {
+                    "type": "distribution",
+                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "4f97c644-ac7c-500d-a81b-918a7d7e6c3f",
+            "type": "library",
+            "group": "org.apache.logging.log4j",
+            "name": "log4j-api",
+            "description": "The Apache Log4j API",
+            "version": "2.17.2",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "0c39d90e7819c92c111e447bdf786a90"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "f42d6afa111b4dec5d2aea0fe2197240749a4ea6"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "09351b5a03828f369cdcff76f4ed39e6a6fc20f24f046935d0b28ef5152f8ce4"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "e4ba0afbfd91ef295e6c1c1edfa7854e216a29705b5c4b520f803697ae6badf3630c5d55e56394954988fa88e62176b4"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "8f986171ee6ca94ba8eacfc83b5b45bb87221c176076eb152715fcb4e1f351c4e9f88d56420fc02ee166ebe0b896fb52eda21355dec49302ab3e83a56b245d04"
+                }
+            ],
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.17.2?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "distribution",
+                    "url": "https://logging.apache.org/log4j/2.x/download.html"
+                },
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/apache/logging-log4j2/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://logging.apache.org/log4j/3.x/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/logging-log4j2"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/logging-log4j2/security/policy"
+                },
+                {
+                    "type": "build-system",
+                    "url": "https://ci-builds.apache.org/job/Logging/job/log4j/"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "628e2a07-256e-5f44-83b1-e7b11e0211d2",
+            "type": "library",
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-core",
+            "description": "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+            "version": "2.12.6",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "3976126e023f2969b4267963fe841f43"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "5bf206c0b5982cfcd868b3d9349dc5190db8bab5"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "0026cff293bdba389fbbbc67a20fdd5f73e091554ab46671efa654c25c807ee6"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "febced79e3d0c7b130c065602dfa537e08ee288ef9fb197180e13087dc4efb2326672ffc3680c8cf8acaa0507240d7d7"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "faf2dcac732b824ed1728011363ec9c2345ab62a6e38f623e623ae0df068afb241bb24d2dcbf625d2184e07262fe1651796706f4958362daeee28dd8e93ca4bd"
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.12.6?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "distribution",
+                    "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+                },
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/FasterXML/jackson-core/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://github.com/FasterXML/jackson-core"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/FasterXML/jackson-core"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/FasterXML/jackson-core/security/policy"
+                }
+            ],
+            "author": "FasterXML, LLC",
+            "publisher": "FasterXML, LLC",
+            "supplier":
+            {
+                "name": "FasterXML, LLC",
+                "url":
+                [
+                    "http://fasterxml.com"
+                ]
+            }
+        },
+        {
+            "bom-ref": "77ba9b4a-e111-5658-9a5d-ccdf6eeae28f",
+            "type": "library",
+            "group": "org.apache.httpcomponents",
+            "name": "httpclient",
+            "description": "Apache HttpComponents Client",
+            "version": "4.5.13",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "40d6b9075fbd28fa10292a45a0db9457"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "6fe9026a566c6a5001608cf3fc32196641f6c1e5e1986d1037ccdbd5f31ef743"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "093ac3e2dde58e34aa70309c7305eb3c9b5be2509a9293f1672494da55479a86bd112e83326746dc7a32855472952b99"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "3567739186e551f84cad3e4b6b270c5b8b19aba297675a96bcdff3663ff7d20d188611d21f675fe5ff1bfd7d8ca31362070910d7b92ab1b699872a120aa6f089"
+                }
+            ],
+            "purl": "pkg:maven/org.apache.httpcomponents/httpclient@4.5.13?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "http://issues.apache.org/jira/browse/HTTPCLIENT"
+                },
+                {
+                    "type": "website",
+                    "url": "http://hc.apache.org/httpcomponents-client-ga"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/httpcomponents-client"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/httpcomponents-client/security/policy"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+                },
+                {
+                    "type": "distribution",
+                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "fb5c8e63-176e-58df-a256-4f92157c40ca",
+            "type": "library",
+            "group": "org.apache.logging.log4j",
+            "name": "log4j-core",
+            "description": "The Apache Log4j Implementation",
+            "version": "2.17.2",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "b35d06ffd3ea52e5ba9efe455108745c"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "fa43ba4467f5300b16d1e0742934149bfc5ac564"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "5adb34ff4197cd16a8d24f63035856a933cb59562a6888dde86e9450fcfef646"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "a8e03c55833df8f96d7066645440281ba212040af247733db6f4debcb38b7fe8e1e9ac79eb9b67105670e82136125e7c"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "c2fc60a1e8c866c09f4787d1edb1bd87a5a5fe114c477d065a3c43f4e513f055d61560b597f06ef6d95c09763b6adb3be17812c8611c00df6f4959311bc9599d"
+                }
+            ],
+            "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.17.2?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "distribution",
+                    "url": "https://logging.apache.org/log4j/2.x/download.html"
+                },
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/apache/logging-log4j2/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://logging.apache.org/log4j/3.x/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/logging-log4j2"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/logging-log4j2/security/policy"
+                },
+                {
+                    "type": "build-system",
+                    "url": "https://ci-builds.apache.org/job/Logging/job/log4j/"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "8af11b7a-06d5-5964-9c70-7b93f9110ca5",
+            "type": "library",
+            "group": "commons-cli",
+            "name": "commons-cli",
+            "description": "Apache Commons CLI provides a simple API for presenting, processing and validating a Command Line Interface.",
+            "version": "1.5.0",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "6c3b2052160144196118b1f019504388"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "dc98be5d5390230684a092589d70ea76a147925c"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "bc8bb01fc0fad250385706e20f927ddcff6173f6339b387dc879237752567ac6"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "a7a2daa807c4007c506b5100f0a9b526c0052c4e1f6b699904ef9d2aba8195b6003dc4d47ca133b15e2f3e830bdbe6c4"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "b78ac2b418e9e9e7d0bc866664577199d320408a6f03151b3789bac365c986dd526df853599e633d7e50fe136cbf3eb9ce50c9cfa0ad38c3cc8d8ee416f61c40"
+                }
+            ],
+            "purl": "pkg:maven/commons-cli/commons-cli@1.5.0?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "https://issues.apache.org/jira/browse/CLI"
+                },
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-cli/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/commons-cli"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/commons-cli/security/policy"
+                },
+                {
+                    "type": "build-system",
+                    "url": "https://builds.apache.org/"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+                },
+                {
+                    "type": "distribution",
+                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "44a519ac-ef37-5e48-a407-c75faacf4a8e",
+            "type": "library",
+            "group": "org.json",
+            "name": "json",
+            "description": "JSON is a light-weight, language independent, data interchange format.\n        See http://www.JSON.org/\n\n        The files in this package implement JSON encoders/decoders in Java.\n        It also includes the capability to convert between JSON and XML, HTTP\n        headers, Cookies, and CDL.\n\n        This is a reference implementation. There are a large number of JSON packages\n        in Java. Perhaps someday the Java community will standardize on one. Until\n        then, choose carefully.",
+            "version": "20190722",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "name": "The JSON License",
+                        "url": "http://json.org/license.html"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "cdb0aa1fd126bc94b34da5856b57f13a"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "07bce7bacf0ab5e9f894d307a3de8b7f540064d5"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "e35b3830de02a8992ca8beb6936f52ee80e509753d64469c8f0dde93e17a880b"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "768234394c9f6f4fc33162d383739e5feaf78479bd4b05ff0b41aad05ab2f89e195ac0b51d7163f664d785f51e1e7db9"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "2c815bcd5b3efe683bf3e9f47d559be0934d35ac63299522f3143ca072ae414177c4dc909ff1db4957b93e79eddfa971d5f65fb34c9608eb65083a7e3f57b10c"
+                }
+            ],
+            "purl": "pkg:maven/org.json/json@20190722?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "distribution",
+                    "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+                },
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/douglascrockford/JSON-java/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://github.com/douglascrockford/JSON-java"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/douglascrockford/JSON-java"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/stleary/JSON-java/security/policy"
+                }
+            ],
+            "author": "Douglas Crockford",
+            "publisher": "Douglas Crockford",
+            "supplier":
+            {
+                "name": "Douglas Crockford",
+                "url":
+                [
+                    "https://www.crockford.com"
+                ]
+            }
+        },
+        {
+            "bom-ref": "5671825b-d23c-5b5f-af4f-e00c1440f2cb",
+            "type": "library",
+            "group": "commons-logging",
+            "name": "commons-logging",
+            "description": "Apache Commons Logging is a thin adapter allowing configurable bridging to other,\n    well-known logging systems.",
+            "version": "1.2",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "040b4b4d8eac886f6b4a2a3bd2f31b00"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+                }
+            ],
+            "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "https://issues.apache.org/jira/browse/LOGGING"
+                },
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-logging/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/commons-logging"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/commons-logging/security/policy"
+                },
+                {
+                    "type": "build-system",
+                    "url": "https://continuum-ci.apache.org/"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+                },
+                {
+                    "type": "distribution",
+                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "89f4635c-4e61-5746-a369-e0973d42c199",
+            "type": "library",
+            "group": "commons-codec",
+            "name": "commons-codec",
+            "description": "The Apache Commons Codec component contains encoder and decoders for\n     various formats such as Base16, Base32, Base64, digest, and Hexadecimal. In addition to these\n     widely used encoders and decoders, the codec package also maintains a\n     collection of phonetic encoding utilities.",
+            "version": "1.11",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "567159b1ae257a43e1391a8f59d24cfe"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "3acb4705652e16236558f0f4f2192cc33c3bd189"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "e599d5318e97aa48f42136a2927e6dfa4e8881dff0e6c8e3109ddbbff51d7b7d"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "9ae3d8fd4c38f3af52c76c5f98039109901cb0f70700e6d9999b27cc4b30b188e2688aa4adcf6b846376bc3ca125907a"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "d9586162b257386b5871e7e9ae255a38014a9efaeef5148de5e40a3b0200364dad8516bddd554352aa2e5337bec2cc11df88c76c4fdde96a40f3421aa60650d7"
+                }
+            ],
+            "purl": "pkg:maven/commons-codec/commons-codec@1.11?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "https://issues.apache.org/jira/browse/CODEC"
+                },
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-codec/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/commons-codec"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/commons-codec/security/policy"
+                },
+                {
+                    "type": "build-system",
+                    "url": "https://builds.apache.org/"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+                },
+                {
+                    "type": "distribution",
+                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            },
+            "components":
+            [
+                {
+                    "bom-ref": "52e96ff64593f258278e6eb55690009a9a22b95fb45e3002bca51247a29f3211",
+                    "type": "file",
+                    "name": "msi:cab:pe:zip:file:%2525252F%2525252F%2525252FSub_213_EcoStruxure_Condition_Based_Maintenance_POC_v1.0.zip%252523%25252FDelivery_EdgeSW_CBM_20230905.4%25252FSQL%25252520Server%252525202019%25252520Express%25252Fsqlserver2019-kb5017593-x64.exe%2523%252Fsqlserver2019-kb5017593-x64.exe.overlay-541539849-755236500.cab%23%2FSQL_POLYBASE_JAVA_INST.MSP#/Hadoop_ApacheHadoop_commons_codec_1_11_jar_64",
+                    "hashes":
+                    [
+                        {
+                            "alg": "SHA-1",
+                            "content": "3acb4705652e16236558f0f4f2192cc33c3bd189"
+                        }
+                    ],
+                    "copyright": "NOASSERTION"
+                }
+            ]
+        },
+        {
+            "bom-ref": "aa7abc9f-add8-5f03-aebb-d336f0f996d5",
+            "type": "library",
+            "group": "commons-io",
+            "name": "commons-io",
+            "description": "The Apache Commons IO library contains utility classes, stream implementations, file filters,\nfile comparators, endian transformation classes, and much more.",
+            "version": "2.8.0",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "21ba575792e2694c39af13918a80550b"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "92999e26e6534606b5678014e66948286298a35c"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "13cb963b3b8bd821f3d3c0e7bea787f9b0e78b35073a4132e6d865c289e3293978096a4fe51a5deb04e297ba4db644a5"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "72040ed293a083f979c3f23b00c359195cf0e4c227a9cb962d99804cbe07d86e24d2864aa8c533bb79e4ad1f83d3d17f290c8c24630410eb80734d6d1266e7ec"
+                }
+            ],
+            "purl": "pkg:maven/commons-io/commons-io@2.8.0?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "https://issues.apache.org/jira/browse/IO"
+                },
+                {
+                    "type": "website",
+                    "url": "https://commons.apache.org/proper/commons-io/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/commons-io"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/commons-io/security/policy"
+                },
+                {
+                    "type": "build-system",
+                    "url": "https://builds.apache.org/"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+                },
+                {
+                    "type": "distribution",
+                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "98f04f46-c318-55a3-ad1c-de9579349ab4",
+            "type": "library",
+            "group": "org.springframework",
+            "name": "spring-jcl",
+            "description": "Spring Commons Logging Bridge",
+            "version": "5.3.20",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "5960098d2253e57c262e243b996de56f"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "35119231d09863699567ce579c21512ddcbc5407"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "fb6c6bf524b19a03103812e0104eaf0bcbc178ae8f425db8b547963b13483e28"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "19b9b73e592d09439c093b022e342bfd430c32a6efc6fe45f8c57756983bbfb447aaf240c2684275274ce4689136ef79"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "68985f896d620245d2ffd197525bab65b4cb5941108f4db1b3cf7ec6fcf0246367b7fdb1164da052876af4efce42caeae13c4bcffa634b9c54d0fcd37ef04dfd"
+                }
+            ],
+            "purl": "pkg:maven/org.springframework/spring-jcl@5.3.20?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/spring-projects/spring-framework/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://github.com/spring-projects/spring-framework"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/spring-projects/spring-framework"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/spring-projects/spring-framework/security/policy"
+                }
+            ],
+            "author": "Spring",
+            "publisher": "Spring",
+            "supplier":
+            {
+                "name": "Spring",
+                "url":
+                [
+                    "https://spring.io/projects"
+                ]
+            }
+        },
+        {
+            "bom-ref": "e7fc885b-abab-517f-8d52-0e1368f7007b",
+            "type": "library",
+            "group": "commons-httpclient",
+            "name": "commons-httpclient",
+            "description": "The HttpClient  component supports the client-side of RFC 1945 (HTTP/1.0)  and RFC 2616 (HTTP/1.1) , several related specifications (RFC 2109 (Cookies) , RFC 2617 (HTTP Authentication) , etc.), and provides a framework by which new request types (methods) or HTTP extensions can be created easily.",
+            "version": "3.1",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "8ad8c9229ef2d59ab9f59f7050e846a5"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "964cd74171f427720480efdec40a7c7f6e58426a"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "dbd4953d013e10e7c1cc3701a3e6ccd8c950c892f08d804fabfac21705930443"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "973e966839aaaddea4af4dd43c6dea59eeeca88b8e452af0a35efeb3c920592b110c5a366fc46f75c404d1c7fa4a7443"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "85e79d4fdb266861910ef95bcd6e82a7f091c9bfbc63dbe2112383ea4d53a5b7a378b54e7c472fbdfde923f30c72d9cad626f8fabb0b9c70d1dfb095add73359"
+                }
+            ],
+            "purl": "pkg:maven/commons-httpclient/commons-httpclient@3.1?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "http://issues.apache.org/jira/browse/HTTPCLIENT"
+                },
+                {
+                    "type": "website",
+                    "url": "http://jakarta.apache.org/httpcomponents/httpclient-3.x/"
+                },
+                {
+                    "type": "vcs",
+                    "url": "http://svn.apache.org/repos/asf/jakarta/httpcomponents/oac.hc3x/trunk"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "http://mail-archives.apache.org/mod_mbox/jakarta-httpcomponents-dev/"
+                }
+            ],
+            "author": "Apache Software Foundation",
+            "publisher": "Apache Software Foundation",
+            "supplier":
+            {
+                "name": "Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org"
+                ]
+            }
+        },
+        {
+            "bom-ref": "bfc3cf49-ff0d-5dbf-8b0a-0cf0fa7b6774",
+            "type": "library",
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-databind",
+            "description": "General data-binding functionality for Jackson: works on core streaming API",
+            "version": "2.12.7.1",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "5c2dab5ceb80bddf3350ecc90bd99314"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "48d6674adb5a077f2c04b42795e2e7624997b8b9"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "eb60e494ba8c23e653da4db8e29af0342927fc7e1c60501bf99e93145738c696"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "48ec219d4a8692ce850d7eedaf7fadad2c1891887773d3b90767538a4174248c8b51ceb5360ba8fa3e69efa736c3abde"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "9fa25c2a2917a751a1d77ff5301627a1adf48fb8b9924acb47d176b142fe791e4b12b7a526327e93557d0052dc10ea210a87849f1d292ba4ec581357f1b21971"
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.12.7.1?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "distribution",
+                    "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+                },
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/FasterXML/jackson-databind/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://github.com/FasterXML/jackson"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/FasterXML/jackson-databind"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/FasterXML/jackson-databind/security/policy"
+                }
+            ],
+            "author": "FasterXML, LLC",
+            "publisher": "FasterXML, LLC",
+            "supplier":
+            {
+                "name": "FasterXML, LLC",
+                "url":
+                [
+                    "http://fasterxml.com"
+                ]
+            }
+        },
+        {
+            "bom-ref": "89bee0b9-2681-5155-a6dd-084340a12ffc",
+            "type": "library",
+            "group": "org.apache.httpcomponents",
+            "name": "httpcore",
+            "description": "Apache HttpComponents Core (blocking I/O)",
+            "version": "4.4.13",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "e07a248f61c52776a2366c075dcd4963"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "853b96d3afbb7bf8cc303fe27ee96836a10c1834"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "e06e89d40943245fcfa39ec537cdbfce3762aecde8f9c597780d2b00c2b43424"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "b776d57492478c162d428bdd3139be0fa6c3cf4503355c3a04710ca7bc3ee74d66627f49eb42814fd8f8364dbd17aa91"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "23430cde8b9bed33c91474ba49f1143284135df1b25fdcbc37bc3bb7e9549e77b3918eb40250093db652ae200367e87316129b23b4f6987e94939d60f467498d"
+                }
+            ],
+            "purl": "pkg:maven/org.apache.httpcomponents/httpcore@4.4.13?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "issue-tracker",
+                    "url": "http://issues.apache.org/jira/browse/HTTPCORE"
+                },
+                {
+                    "type": "website",
+                    "url": "http://hc.apache.org/httpcomponents-core-ga"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/apache/httpcomponents-core"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/apache/httpcomponents-core/security/policy"
+                },
+                {
+                    "type": "mailing-list",
+                    "url": "http://mail-archives.apache.org/mod_mbox/hc-httpclient-users/"
+                },
+                {
+                    "type": "distribution",
+                    "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+                }
+            ],
+            "author": "The Apache Software Foundation",
+            "publisher": "The Apache Software Foundation",
+            "supplier":
+            {
+                "name": "The Apache Software Foundation",
+                "url":
+                [
+                    "https://www.apache.org/"
+                ]
+            }
+        },
+        {
+            "bom-ref": "cf1048f0-25f5-52b5-85fb-a1e6a94b1ba6",
+            "type": "library",
+            "group": "com.fasterxml.jackson.core",
+            "name": "jackson-annotations",
+            "description": "Core annotations used for value types, used by Jackson data binding package.",
+            "version": "2.12.6",
+            "licenses":
+            [
+                {
+                    "license":
+                    {
+                        "id": "Apache-2.0",
+                        "url": "https://www.apache.org/licenses/LICENSE-2.0"
+                    }
+                }
+            ],
+            "hashes":
+            [
+                {
+                    "alg": "MD5",
+                    "content": "9c936122eb418ee985b195d183623618"
+                },
+                {
+                    "alg": "SHA-1",
+                    "content": "9487231edd6b0b1f14692c9cba9e0462809215d1"
+                },
+                {
+                    "alg": "SHA-256",
+                    "content": "ddf46e401a7d9ea3b481c263fa192285d13c50982a5882b22f806639b9645ee4"
+                },
+                {
+                    "alg": "SHA-384",
+                    "content": "0f263e4f5f5a31a14c65203f5aa2f52bfd43220db4923367bd7b206b91f26ae998a5b56fcd7547d48ac760161501d3c2"
+                },
+                {
+                    "alg": "SHA-512",
+                    "content": "a4faf2e4b6ff9af14a9d5916606257ec537d05dc5a84585ce3d26ea52a38e4cf13295351bdef05274dccdcc3e415e21686e50f9f5ac414754eefe66463e4a75a"
+                }
+            ],
+            "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.12.6?type=jar",
+            "externalReferences":
+            [
+                {
+                    "type": "distribution",
+                    "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+                },
+                {
+                    "type": "issue-tracker",
+                    "url": "https://github.com/FasterXML/jackson-annotations/issues"
+                },
+                {
+                    "type": "website",
+                    "url": "https://github.com/FasterXML/jackson"
+                },
+                {
+                    "type": "vcs",
+                    "url": "https://github.com/FasterXML/jackson-annotations"
+                },
+                {
+                    "type": "other",
+                    "url": "https://github.com/FasterXML/jackson-annotations/security/policy"
+                }
+            ],
+            "author": "FasterXML, LLC",
+            "publisher": "FasterXML, LLC",
+            "supplier":
+            {
+                "name": "FasterXML, LLC",
+                "url":
+                [
+                    "http://fasterxml.com"
+                ]
+            }
+        }
+    ],
+    "dependencies":
+    [
+        {
+            "ref": "de57d1cf-4cfe-551b-9ef6-d691de0bbb5e",
+            "dependsOn":
+            [
+                "912fadeb-b27c-51e7-963e-68da239d72bd",
+                "77ba9b4a-e111-5658-9a5d-ccdf6eeae28f",
+                "8af11b7a-06d5-5964-9c70-7b93f9110ca5",
+                "fb5c8e63-176e-58df-a256-4f92157c40ca",
+                "f4087293-42a3-593c-99c0-f1c4082bd98d",
+                "44a519ac-ef37-5e48-a407-c75faacf4a8e",
+                "e7fc885b-abab-517f-8d52-0e1368f7007b",
+                "bfc3cf49-ff0d-5dbf-8b0a-0cf0fa7b6774",
+                "aa7abc9f-add8-5f03-aebb-d336f0f996d5"
+            ]
+        },
+        {
+            "ref": "f4087293-42a3-593c-99c0-f1c4082bd98d",
+            "dependsOn":
+            [
+                "98f04f46-c318-55a3-ad1c-de9579349ab4"
+            ]
+        },
+        {
+            "ref": "bfc3cf49-ff0d-5dbf-8b0a-0cf0fa7b6774",
+            "dependsOn":
+            [
+                "628e2a07-256e-5f44-83b1-e7b11e0211d2",
+                "cf1048f0-25f5-52b5-85fb-a1e6a94b1ba6"
+            ]
+        }
+    ]
+}
