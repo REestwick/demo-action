@@ -19,6 +19,6 @@ jobs:
           subType: application
           sbomQuality: 50
           pkgType: maven
-          sbomComponentName: test-demo-sbom
+          sbomComponentName: sbom/test-demo-sbom
           namespace: com.example.demo
           sbomComponentVersion: 1.0.0
