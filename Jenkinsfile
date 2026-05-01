@@ -21,11 +21,11 @@ pipeline {
                     sbomStudio filePath:'sbom/test.cdx.json',
                                 manufacturerId:'CyBeats',
                                 supplierId:'CyBeats',
-                                pkgType:'maven', 
-                                sbomComponentName:'test-jenkinsfile', 
-                                sbomComponentNamespace:'org.test', 
-                                sbomComponentVersion:'1.2.3', 
-                                subType:'application'
+                                pkgType:'', 
+                                sbomComponentName:'', 
+                                sbomComponentNamespace:'', 
+                                sbomComponentVersion:'', 
+                                subType:''
                 }
             }
         }
