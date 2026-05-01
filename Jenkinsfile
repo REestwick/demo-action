@@ -25,7 +25,7 @@ pipeline {
                                 sbomComponentName:'', 
                                 sbomComponentNamespace:'', 
                                 sbomComponentVersion:'', 
-                                subType:''
+                                subType:'application'
                 }
             }
         }
