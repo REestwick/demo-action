@@ -21,7 +21,7 @@ pipeline {
                     sbomStudio filePath: 'sbom/test.cdx.json',
                                 manufacturerId: 'CyBeats',
                                 supplierId: 'CyBeats' 
-                                pkgType: 'generic', 
+                                pkgType: '', 
                                 sbomComponentName: '', 
                                 sbomComponentNamespace: '', 
                                 sbomComponentVersion: '', 
