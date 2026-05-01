@@ -20,8 +20,8 @@ pipeline {
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
                     sbomStudio filePath:'sbom/test.cdx.json',
                                 manufacturerId:'CyBeats',
-                                supplierId:'CyBeats' 
-                                pkgType:'', 
+                                supplierId:'CyBeats',
+                                pkgType:'maven', 
                                 sbomComponentName:'', 
                                 sbomComponentNamespace:'', 
                                 sbomComponentVersion:'', 
