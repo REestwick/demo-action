@@ -22,9 +22,9 @@ pipeline {
                                 manufacturerId:'CyBeats',
                                 supplierId:'CyBeats',
                                 pkgType:'maven', 
-                                sbomComponentName:'', 
-                                sbomComponentNamespace:'', 
-                                sbomComponentVersion:'', 
+                                sbomComponentName:'test-jenkinsfile', 
+                                sbomComponentNamespace:'org.test', 
+                                sbomComponentVersion:'1.2.3', 
                                 subType:'application'
                 }
             }
