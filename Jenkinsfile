@@ -18,14 +18,14 @@ pipeline {
             steps {
                 echo 'Check General Functionality'
                 catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
-                    sbomStudio filePath: 'sbom/test.cdx.json',
-                                manufacturerId: 'CyBeats',
-                                supplierId: 'CyBeats' 
-                                pkgType: '', 
-                                sbomComponentName: '', 
-                                sbomComponentNamespace: '', 
-                                sbomComponentVersion: '', 
-                                subType: 'application'
+                    sbomStudio filePath:'sbom/test.cdx.json',
+                                manufacturerId:'CyBeats',
+                                supplierId:'CyBeats' 
+                                pkgType:'', 
+                                sbomComponentName:'', 
+                                sbomComponentNamespace:'', 
+                                sbomComponentVersion:'', 
+                                subType:'application'
                 }
             }
         }
